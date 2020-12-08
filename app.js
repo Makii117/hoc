@@ -8,7 +8,6 @@ searchbox.addEventListener('keypress', setQuery);
 function setQuery(event){
     if (event.keyCode==13){
         getPrognoza(searchbox.value);
-        petDana(searchbox.value);
     }
 
 }
